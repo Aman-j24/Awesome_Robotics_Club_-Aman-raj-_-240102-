@@ -1,0 +1,3 @@
+In my approach
+first of all i have used min-heap priority queue order after starting from s point and also there are 4 possible neighbour are so it can move in every direction where it is possible to move like it can't move wherever "#"is present and add the distance to previous distance and if it is lesser than previously set value for that position (which is initialized to INT_MAx)
+than it going to store it in a distance array and at the end this array gives the minimum cost to reach any of the position .and after reaching G ,the destination . after that Reconstruction of path is done and we print the coordinates. This is a application of Dijkstra's algorithm in which min heaps used to check priority and a minimum distance array is stored for every point of map.
